@@ -23,7 +23,7 @@ export default function ButtonAppBar() {
     const classes = useStyles();
 
     return (
-        <Box className={classes.root}>
+        <Box className={classes.root} marginBottom="13px">
             <AppBar position="static">
                 <Toolbar>
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
